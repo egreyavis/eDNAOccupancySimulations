@@ -2,7 +2,6 @@
 ### Note - number and definition of levels for eDNA occupancy are somewhat arbitrary - we are following eDNAOccupancy syntax here 
 
 ###0. Housekeeping
-rm(list=ls(all=TRUE)) ## clear R's working memory
 lapply(c("mvtnorm", "pROC", "mcmcse", "eDNAoccupancy"), require, character.only=T) ## load required packages
 
 ###1. User-Defined simulation variables
